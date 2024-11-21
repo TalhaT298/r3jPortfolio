@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 
@@ -28,7 +29,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: 'JavaScript Mastery',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'mdtalha2008@gmail.com',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
@@ -88,7 +89,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="ex., Talha Tarique"
               />
             </label>
 
@@ -101,7 +102,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="ex., mdtalha2008@gmail.com"
               />
             </label>
 
