@@ -30,7 +30,7 @@ const Technology = () => {
           Technologies utilized
         </h3>
       </div>
-      <Marquee className="pt-16 text-white" direction="right" speed={50}>
+      <Marquee className="pt-16 text-white" direction="right" pauseOnHover={true} speed={50}>
         <p className="text-xl md:text-4xl font-extrabold font-serif px-4">HTML5</p>
         <p className="text-xl md:text-4xl font-extrabold font-serif px-4">CSS3</p>
         <p className="text-xl md:text-4xl font-extrabold font-serif px-4">Bootstrap</p>
