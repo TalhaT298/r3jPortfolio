@@ -25,7 +25,8 @@ const Technology = () => {
     <div className="py-8">
       <div className="mx-auto md:w-8/12 my-4 flex justify-center items-center text-center">
         {/* <p className='text-yellow-600'>----{subHeading}---</p> */}
-        <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif">
+        {/* <h3 className="text-2xl sm:text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-800 text-transparent bg-clip-text uppercase pt-4 font-bold font-serif"> */}
+        <h3 className="text-2xl sm:text-3xl md:text-4xl text-white-600 uppercase pt-4 font-bold font-serif">
           Technologies utilized
         </h3>
       </div>
